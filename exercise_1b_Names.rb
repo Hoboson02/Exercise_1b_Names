@@ -1,26 +1,27 @@
 class Bike
-    # ...
+  # Name: Ryan Earl
+  #Github Repo: https://github.com/Hoboson02/Exercise_1b_Names
+end
+
+class red_bicycle < Bike
+
+  weight_value = 10
+
+  def initialize(height, weight, color)
+    @height = height
+    @weight = weight
+    @color = color
   end
-  
-  class RedBicycle < Bike
-  
-    AMOUNT = 10
-  
-    def initialize(a, b, c)
-      @height = a
-      @weight = b
-      @color = c
-    end
-  
-    def getColor
-      @color
-    end
-  
-    def retreive_height
-      @height
-    end
-  
-    def change_weight
-      @weight -= AMOUNT
-    end
+
+  def get_color
+    @color
   end
+
+  def retreive_height
+    @height
+  end
+
+  def change_weight
+    @weight -= weight_value
+  end
+end
