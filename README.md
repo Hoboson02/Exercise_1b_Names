@@ -1,1 +1,1 @@
-# Exercise_1b_Names_CS_361
+# Exercise_1b_Names
