@@ -1,6 +1,6 @@
 class Bike
   # Name: Ryan Earl
-  #Github Repo: https://github.com/Hoboson02/Exercise_1b_Names
+  # Github Repo: https://github.com/Hoboson02/Exercise_1b_Names
 end
 
 class red_bicycle < Bike
@@ -17,11 +17,11 @@ class red_bicycle < Bike
     @color
   end
 
-  def retreive_height
+  def get_height
     @height
   end
 
-  def change_weight
+  def decrease_weight
     @weight -= weight_value
   end
 end
